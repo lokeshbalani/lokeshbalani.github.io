@@ -22,6 +22,8 @@
 
 ### PART 6 : JavaScript ES6 and beyond
 * [Introduction](js/Introduction.md)
+* [Garbage Collection](js/Garbage-Collection.md)
+* [Garbage Collection and Memory Management in JavaScript](js/Memory-Management.md)
 
 ### PART 7 : JavaScript for Computer Vision and Image Processing
 * [Introduction](js-cv/Introduction.md)
