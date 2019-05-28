@@ -1,43 +1,103 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+    background-color: #eeeeee;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+
+/* .container {
+    height: 100vh;
+    background: url('../images/6.jpg') bottom no-repeat transparent;
+    background-size: cover;
+} */
+
+.container,
+.container *:not(.fas):not(.fab) {
+    font-family: 'Lato', sans-serif;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+
+.content {
+    max-width: 960px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
-a {
+
+.no-bullets {
+    list-style-type: none;
+}
+
+.sshare ul {
+    padding: 0;
+}
+
+.sshare li {
+    display: inline-block;
+    margin-right: 14px;
+}
+
+.sshare i {
+    font-size: 28px;
+    color: white;
+    font-weight: 900;
+}
+
+.blurb .name h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+    line-height: 1.44;
+    font-weight: 300;
+}
+
+.blurb .name .tag {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.29;
+    margin-bottom: 30px;
+}
+
+.cta {
+    display: inline-block;
+    padding: 15px 28px 13px 28px;
+    color: #fff;
+    background-color: #2A2F34;
+    border-radius: 5px;
+    text-align: left;
+    transition: background-color 200ms linear;
+    text-transform: uppercase;
     text-decoration: none;
-    color: #999;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    vertical-align: middle;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+.cta.pri {
+    background-color: #2A8DF4;
 }
 
-ul.posts li {
-    list-style: none;
+.cta.sec {
+    background-color: #587798;
 }
+
+.cta_icon{
+    float: left;
+    margin-right: 10px;
+}
+
+.cta_text{
+    float: left;
+    position: relative;
+}
+
+.cta_action{
+    display: block;
+    margin-bottom: 3px;
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 0.57px;
+    text-transform: uppercase;
+}
+
+.cta_kind {
+    display: block;
+    font-weight: 900;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    }
