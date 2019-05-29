@@ -75,17 +75,17 @@ body {
     background-color: #587798;
 }
 
-.cta_icon{
+.cta_icon {
     float: left;
     margin-right: 10px;
 }
 
-.cta_text{
+.cta_text {
     float: left;
     position: relative;
 }
 
-.cta_action{
+.cta_action {
     display: block;
     margin-bottom: 3px;
     font-weight: 300;
@@ -100,4 +100,22 @@ body {
     font-size: 16px;
     letter-spacing: 0.8px;
     text-transform: uppercase;
-    }
+}
+
+.pri-nav li {
+    display: inline-block;
+}
+
+.pri-nav li:after {
+    content: "|";
+    padding: 10px;
+}
+
+.pri-nav li:last-child:after {
+    content: "";
+}
+
+.pri-nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
