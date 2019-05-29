@@ -1,0 +1,21 @@
+---
+layout: postlist
+title: Lokesh Balani
+---
+<div class="post-hdr">
+	<img class="photo" src="../assets/images/photo.jpg" alt="lokesh balani thumbnail">
+	<a href="/" class="hmpg-link"><h1 class="title">{{ page.title }}</h1></a>
+</div>
+
+<ul class="posts">
+	{% for post in site.posts %}
+	<li>
+		<a class="post-link" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+		<p class="post-date">{{ post.date | date_to_string }}</p>
+		<div class="post-excerpt">
+			{{ post.excerpt }}
+			<hr>
+		</div>
+	</li>
+	{% endfor %}
+</ul>

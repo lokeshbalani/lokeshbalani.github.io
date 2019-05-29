@@ -1,0 +1,66 @@
+body {
+    background-color: #eeeeee;
+}
+
+.container,
+.container * {
+    font-family: 'Dancing Script', cursive;
+}
+
+.container {
+    max-width: 720px;
+    margin: auto;
+}
+
+.post-hdr{
+    margin: 20px 0 50px 0;
+}
+
+.post-hdr .photo{
+    display: inline-block;
+    width: 70px;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin-right: 30px;
+    -webkit-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+	box-shadow:0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.post-hdr .hmpg-link{
+    text-decoration: none;
+}
+
+.post-hdr .title{
+    font-size: 48px;
+    color: black;
+    display: inline-block;
+    vertical-align: middle;
+    border-bottom: black 1px dotted;
+}
+
+.posts .post-link{
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.posts .post-date{
+    font-size: 20px;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.posts .post-excerpt{
+    font-size: 28px;
+}
+
+.posts .post-excerpt p{
+    padding-bottom: 20px;
+}
+
+.posts .post-excerpt hr{
+    width: 30%;
+    margin: 20px 0;
+}

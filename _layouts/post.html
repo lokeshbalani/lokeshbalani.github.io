@@ -1,9 +1,32 @@
----
-layout: page
----
-<h1>{{ page.title }}</h1>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<!DOCTYPE html>
+<html lang="en">
 
-<div class="blog">
-  {{ content }}
-</div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>{{ page.title }}</title>
+
+  <!-- link to main stylesheet -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="/assets/css/homepage.css">
+
+</head>
+
+<body>
+  <div class="container">
+
+    <h1>{{ page.title }}</h1>
+    <p class="meta">{{ page.date | date_to_string }}</p>
+
+    <div class="blog">
+      {{ content }}
+    </div>
+  </div>
+</body>
+
+</html>
