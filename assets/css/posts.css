@@ -9,7 +9,14 @@ body {
 
 .container {
     max-width: 720px;
-    margin: auto;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    width: calc(100% - 40px);
+    display: block;
+    padding: 0 5px;
 }
 
 .post-hdr{
@@ -36,31 +43,56 @@ body {
     color: black;
     display: inline-block;
     vertical-align: middle;
+    margin-bottom: 25px;
+}
+
+.post-hdr h3{
+    font-size: 18px;
+}
+
+.post-hdr .author{
+    font-size: 28px;
+    color: black;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.post-hdr a .title{
     border-bottom: black 1px dotted;
 }
 
-.posts .post-link{
+.post-link{
     font-size: 36px;
     margin-bottom: 10px;
     text-decoration: none;
     display: inline-block;
 }
 
-.posts .post-date{
+.post-date{
     font-size: 20px;
     margin-bottom: 30px;
     display: block;
 }
 
-.posts .post-excerpt{
+.post-excerpt{
     font-size: 28px;
 }
 
-.posts .post-excerpt p{
+.post-excerpt p{
     padding-bottom: 20px;
 }
 
 .posts .post-excerpt hr{
     width: 30%;
     margin: 20px 0;
+}
+
+.posts .post-excerpt hr:last-child{
+    border: none;
+}
+
+.post-cnt p{
+    font-size: 26px;
+    line-height: 1.44;
+    margin-bottom: 30px;
 }

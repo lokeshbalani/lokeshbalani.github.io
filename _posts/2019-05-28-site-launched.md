@@ -2,7 +2,11 @@
 layout: post
 title: "Site Launch"
 date: 2019-05-28
-categories: blog
+author: Lokesh Balani
 ---
 
-Well. Finally got around to putting this website together. Neat thing about it, powered by Jekyll and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
+Hurray!! 
+
+Finally got around to putting this website together. Neat thing is that it is powered by Jekyll and I can use Markdown to author my posts. It turned out to be a lot easier than I thought it was going to be.
+
+Stay tuned for more posts!!
