@@ -2,12 +2,6 @@ body {
     background-color: #eeeeee;
 }
 
-/* .container {
-    height: 100vh;
-    background: url('../images/6.jpg') bottom no-repeat transparent;
-    background-size: cover;
-} */
-
 .container,
 .container *:not(.fas):not(.fab) {
     font-family: 'Lato', sans-serif;
