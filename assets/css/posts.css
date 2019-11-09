@@ -7,6 +7,18 @@ body {
     font-family: 'Dancing Script', cursive;
 }
 
+.container h1,
+.container h1 *,
+.container h2,
+.container h2 *,
+.container h3,
+.container h3 *,
+.container .post-date,
+.posts hr,
+.posts hr *{
+    font-family: 'Megrim', cursive;
+}
+
 .container {
     max-width: 720px;
     margin: 0;
@@ -46,6 +58,26 @@ body {
     margin-bottom: 25px;
 }
 
+.post-subtitle{
+    font-size: 32px;
+    line-height: 1.167em;
+    margin-bottom: 2em;
+    font-weight: bold;
+    position: relative;
+}
+
+.post-subtitle:after{
+    content: '\2217\2013\2013\2013\2013\2013\2217';
+    position: absolute;
+    top: 1.5rem;
+    left: 0;
+}
+
+.lb_post .post-hdr:after {
+    content: '\2217\2013\2013\2013\2013\2013\2013\2013\2217';
+    font-size: 2em;
+}
+
 .post-hdr h3{
     font-size: 18px;
 }
@@ -82,17 +114,28 @@ body {
     padding-bottom: 20px;
 }
 
-.posts .post-excerpt hr{
-    width: 30%;
-    margin: 20px 0;
-}
-
-.posts .post-excerpt hr:last-child{
-    border: none;
-}
-
 .post-cnt p{
     font-size: 26px;
     line-height: 1.44;
     margin-bottom: 30px;
 }
+
+hr{
+    margin: 40px 0;
+    position: relative;
+    border-bottom: 1px dashed black;
+    border-top: none;
+    font-size: .8em;
+}
+
+hr:before{
+    content: attr(data-symbol);
+    position: absolute;
+    left: 50%;
+    background: #eee;
+    padding: 0.2em 2em;
+    transform: translate(-50%, -50%);
+    border: black inset;
+    border-width: 0 2px;
+}
+
