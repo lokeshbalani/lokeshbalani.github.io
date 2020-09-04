@@ -1,5 +1,7 @@
 ---
-layout: post
+layout: generic
+pagetype: blogpost
+pageclass: bp
 title: "Site Launch"
 date: 2019-05-28
 author: Lokesh Balani

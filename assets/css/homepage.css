@@ -1,58 +1,54 @@
-body {
-    background-color: #eeeeee;
+.hp .container{
+    display: grid;
+    place-items: center;
+    height: 100vh;
 }
 
-.container,
-.container *:not(.fas):not(.fab) {
-    font-family: 'Lato', sans-serif;
-}
-
-.content {
-    max-width: 960px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.no-bullets {
+.hp .no-bullets {
     list-style-type: none;
 }
 
-.sshare ul {
+.hp .sshare ul {
     padding: 0;
 }
 
-.sshare li {
+.hp .sshare li {
     display: inline-block;
     margin-right: 14px;
 }
 
-.sshare i {
-    font-size: 28px;
+.hp .sshare i {
+    font-size: 2.8rem;
     color: white;
     font-weight: 900;
 }
 
-.blurb .name h1 {
-    font-size: 42px;
+.hp .blurb .about h1 {
+    font-size: 4.2rem;
     margin-bottom: 10px;
     line-height: 1.44;
     font-weight: 300;
 }
 
-.blurb .name .tag {
-    font-size: 22px;
-    font-weight: 300;
+.hp .blurb .about .tag {
+    font-size: 2.2rem;
+    font-weight: 400;
     line-height: 1.29;
     margin-bottom: 30px;
 }
 
-.cta {
+.hp .blurb .about p {
+    font-size: 2.0rem;
+    font-weight: 300;
+    line-height: 1.29;
+    margin-bottom: 20px;
+}
+
+.hp .cta {
     display: inline-block;
     padding: 15px 28px 13px 28px;
     color: #fff;
-    background-color: #2A2F34;
+    background-color: darkblue;
     border-radius: 5px;
     text-align: left;
     transition: background-color 200ms linear;
@@ -61,55 +57,30 @@ body {
     vertical-align: middle;
 }
 
-.cta.pri {
-    background-color: #2A8DF4;
-}
-
-.cta.sec {
-    background-color: #587798;
-}
-
-.cta_icon {
+.hp .cta_icon {
     float: left;
     margin-right: 10px;
 }
 
-.cta_text {
+.hp .cta_text {
     float: left;
     position: relative;
 }
 
-.cta_action {
+.hp .cta_action {
     display: block;
     margin-bottom: 3px;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 1.2rem;
     letter-spacing: 0.57px;
     text-transform: uppercase;
 }
 
-.cta_kind {
+.hp .cta_kind {
     display: block;
     font-weight: 900;
-    font-size: 16px;
+    font-size: 1.6rem;
     letter-spacing: 0.8px;
     text-transform: uppercase;
 }
 
-.pri-nav li {
-    display: inline-block;
-}
-
-.pri-nav li:after {
-    content: "|";
-    padding: 10px;
-}
-
-.pri-nav li:last-child:after {
-    content: "";
-}
-
-.pri-nav a {
-    text-decoration: none;
-    text-transform: uppercase;
-}
