@@ -75,16 +75,20 @@ html{
     position: relative;
 }
 
-.fw .hdr{
-    max-width: 960px;
-    margin: 0 auto;
-}
-
 .fw .pri-nav{
     position: fixed;
     height: 80px;
     display: grid;
     align-items: center;
+    background-color: #eeeeee;
+    width: 100%;
+}
+
+.fw .pri-nav ul{
+    max-width: 96rem;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 10px;
 }
 
 .fw .pri-nav .logo{
@@ -124,13 +128,17 @@ html{
     content: "";
 }
 
-.fw:not(.hp) .spacer {
+.fw .spacer {
     padding-top: 80px;
 }
 
 .fw .container{
     max-width: 96rem;
     margin: 0 auto;
+}
+
+.fw .content{
+    padding: 10px;
 }
 
 .fw .blurb{
