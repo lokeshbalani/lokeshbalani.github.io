@@ -5,6 +5,17 @@ pageclass: bp
 title: "Site Launch"
 date: 2019-05-28
 author: Lokesh Balani
+category: generic
+---
+
+# {{page.title}}
+**CATEGORY :** `{{page.category | upcase }}`   
+
+---
+
+**By : _{{page.author}}_**    
+{{page.date | date_to_long_string}}  
+
 ---
 
 Hurray!! 

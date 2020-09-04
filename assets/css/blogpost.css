@@ -1,0 +1,342 @@
+.bp * i,
+.bp * em {
+    font-style: oblique
+}
+
+.bp * sub,
+.bp * sup {
+    font-size: 60%;
+    vertical-align: sub
+}
+
+.bp * sup {
+    vertical-align: super
+}
+
+.bp * code {
+    font-family: monospace !important;
+    background-color: darkgreen;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.bp .pri-0 {
+    font-size: 3.2rem;
+    line-height: 1.1875;
+    margin-bottom: .3125rem;
+    font-weight: 200
+}
+
+.bp h1,
+.bp .pri-1 {
+    font-size: 2.8rem;
+    line-height: 1.214;
+    margin-bottom: .3571rem;
+    font-weight: 200
+}
+
+.bp h2,
+.bp .pri-2 {
+    font-size: 2.4rem;
+    line-height: 1.167;
+    margin-bottom: .625rem;
+    font-weight: 300;
+    margin-top: 1.05em
+}
+
+.bp h2:first-child,
+.bp .pri-2:first-child {
+    margin-top: 0
+}
+
+.bp h3,
+.bp h4,
+.bp h5,
+.bp .pri-3,
+.bp .pri-4,
+.bp .pri-5 {
+    font-size: 2.0rem;
+    line-height: 1.2;
+    margin-bottom: .5rem;
+    font-weight: 300
+}
+
+.bp h3 a,
+.bp .pri-3 a {
+    font-weight: 400
+}
+
+.bp p,
+.bp h6,
+.bp h6.bold,
+.bp .pri-6,
+.bp .pri-6.bold,
+.bp dd,
+.bp dt,
+.bp li {
+    font-size: 1.6rem;
+    line-height: 1.375;
+    margin-bottom: .9375rem;
+    font-weight: 300
+}
+
+.bp li,
+.bp li a {
+    line-height: 1.25;
+    margin-bottom: .625rem
+}
+
+.bp li a {
+    font-weight: 400
+}
+
+.bp p.util {
+    font-size: 1.4rem;
+    line-height: 1.286;
+    margin-bottom: .714rem;
+    font-weight: 300
+}
+
+.bp p strong,
+.bp p.util strong {
+    font-weight: 400
+}
+
+.bp a {
+    color: #007493;
+    text-decoration: none
+}
+
+.bp a.dotted {
+    border-bottom: 1px dotted
+}
+
+.no-touch .bp a.dotted:hover {
+    border-bottom: 1px solid
+}
+
+.no-touch .bp a:hover {
+    color: #005073;
+    text-decoration: none
+}
+
+.no-touch .bp a:active {
+    color: #6f53bc
+}
+
+.touch .bp a:hover,
+.touch .bp a:active {
+    text-decoration: none
+}
+
+.bp li:last-child,
+.bp dd:last-child {
+    margin-bottom:r 0
+}
+
+.bp hr {
+    width: 150px;
+    display: inline-block;
+    height: 3px;
+    background: brown;
+    margin-bottom: 40px;
+}
+
+.bp hr:first-of-type{
+    margin-bottom: 10px;
+}
+
+.bp ul,
+.bp ol,
+.bp dl {
+    margin-bottom:r 1.429em
+}
+
+.bp ul {
+    list-style-type: disc
+}
+
+.bp ul.no-bullets {
+    list-style-type: none
+}
+
+.bp ol {
+    list-style-type: decimal
+}
+
+.bp ol.u-alpha {
+    list-style-type: upper-alpha
+}
+
+.bp ol.l-alpha {
+    list-style-type: lower-alpha
+}
+
+.bp ol.u-roman {
+    list-style-type: upper-roman
+}
+
+.bp ol.l-roman {
+    list-style-type: lower-roman
+}
+
+.bp ul li {
+    margin-left: 14px
+}
+
+.bp ul.no-bullets li {
+    margin-left: 0
+}
+
+.bp ol li {
+    margin-left: 20px
+}
+
+.bp dt {
+    clear: left;
+    float: left;
+    margin-right: 6px;
+    color: #444
+}
+
+.bp dd {
+    margin-bottom: 14rpx
+}
+
+@media only screen and (min-width:37.5em) {
+    .bp {
+        margin-bottom: 30rpx
+    }
+
+    .bp .pri-0 {
+        font-size: 4.6rem;
+        line-height: 1.217;
+        margin-bottom: .2174rem
+    }
+
+    .bp h1,
+    .bp .pri-1 {
+        font-size: 3.6rem;
+        line-height: 1.222;
+        margin-bottom: .2778rem
+    }
+
+    .bp h2,
+    .bp .pri-2 {
+        font-size: 2.8rem;
+        line-height: 1.214;
+        margin-top: 1.09em;
+        margin-bottom: .7143rem;
+        font-weight: 200
+    }
+
+    .bp h3,
+    .bp h3 i,
+    .bp h3 em,
+    .bp .pri-3,
+    .bp .pri-3 i,
+    .bp .pri-3 em {
+        font-size: 2.2rem;
+        line-height: 1.273;
+        margin-bottom: .46rem;
+        font-weight: 100
+    }
+
+    .bp h3 a,
+    .bp .pri-3 a {
+        font-weight: 300
+    }
+
+    .bp h4,
+    .bp h4.bold,
+    .bp .pri-4,
+    .bp .pri-4.bold {
+        font-size: 2.0rem;
+        line-height: 1.2;
+        margin-bottom: 1rem
+    }
+
+    .bp p,
+    .bp h6,
+    .bp h6.bold,
+    .bp .pri-6,
+    .bp .pri-6.bold {
+        line-height: 1.5
+    }
+}
+
+@media only screen and (min-width:48em) {
+    .bp {
+        margin-bottom: 40rpx
+    }
+
+    .bp .pri-0 {
+        font-size: 6.4rem;
+        line-height: 1.1875;
+        margin-bottom: .15625rem
+    }
+
+    .bp h1,
+    .bp .pri-1 {
+        font-size: 4.6rem;
+        line-height: 1.217;
+        margin-bottom: .22rem
+    }
+
+    .bp h2,
+    .bp .pri-2 {
+        font-size: 3.8rem;
+        line-height: 1.211;
+        margin-bottom: .526rem;
+        margin-top: 1.08em
+    }
+
+    .bp h3,
+    .bp h3 i,
+    .bp h3 em,
+    .bp .pri-3,
+    .bp .pri-3 i,
+    .bp .pri-3 em {
+        font-size: 2.8rem;
+        line-height: 1.286;
+        margin-bottom: .4rem
+    }
+
+    .bp h4,
+    .bp h4.bold,
+    .bp h5,
+    .bp h5.bold,
+    .bp .pri-4,
+    .bp .pri-4.bold,
+    .bp .pri-5,
+    .bp .pri-5.bold {
+        font-size: 2.2rem;
+        line-height: 1.27;
+        margin-bottom: .909rem
+    }
+
+    .bp p,
+    .bp p a,
+    .bp p i,
+    .bp p em,
+    .bp h6,
+    .bp h6.bold,
+    .bp .pri-6,
+    .bp .pri-6.bold,
+    .bp dd,
+    .bp dt,
+    .bp li,
+    .bp li a {
+        font-size: 1.8rem;
+        line-height: 1.44;
+        margin-bottom: .833rem
+    }
+
+    .bp p.util,
+    .bp .util * {
+        font-size: 1.4rem;
+        line-height: 1.429;
+        margin-bottom: .714rem
+    }
+}
